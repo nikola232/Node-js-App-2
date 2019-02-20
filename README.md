@@ -1,4 +1,4 @@
-# Node-js-App-2
+# Node.js App
 App created whit node.js, express.js mongoDb
 
 # Wep App Link
