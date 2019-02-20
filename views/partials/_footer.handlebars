@@ -1,0 +1,30 @@
+<footer class="page-footer grey darken-3">
+  <div class="container">
+    <div class="row">
+      <div class="col l4   s12">
+        <h5 class="white-text">StoryBooks</h5>
+        <p class="grey-text text-lighten-4">Share your life with the world</p>
+      </div>
+      <div class="col l4 s12">
+        <h5 class="white-text">Links</h5>
+        <ul>
+          <li><a class="grey-text text-lighten-3" href="/stories">Public Stories</a></li>
+          <li><a class="grey-text text-lighten-3" href="/about">About</a></li>
+        </ul>
+      </div>
+      {{#unless user}}
+      <div class="col l4 s12">
+        <h5 class="white-text">No account? </h5>
+        <a href="../users/register">
+          <p class="grey-text text-lighten-4">Click here to create one!</p>
+        </a>
+      </div>
+      {{/unless}}
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+      © 2019 StoryBooks
+    </div>
+  </div>
+</footer>
